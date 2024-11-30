@@ -22,3 +22,23 @@ const blueButton = document.getElementById('make-blue');
 blueButton.onclick = function makeBlue() {
     document.body.style.backgroundColor = 'blue';
 }
+
+// options 4
+
+const pinkBtn = document.getElementById('make-pink');
+pinkBtn.addEventListener('click', makePink)
+
+function makePink() {
+    document.body.style.backgroundColor = 'pink';
+}
+
+
+// options 4 another 
+
+const makeRedBtn = document.getElementById('make-red');
+makeRedBtn.addEventListener('click', function makeRed() {
+    document.body.style.backgroundColor = 'red';
+})
+
+// options 4 final
+

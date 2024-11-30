@@ -10,15 +10,25 @@
 <body>
     <header>
         <h1>Let's Began Our Journey With Dom</h1>
+        <!-- options 1 -->
         <button onclick="console.log(17)">Click Me</button>
         <br>
         <button onclick="console.log(77)">Click Here</button>
         <br>
+        <!-- options 2 -->
         <button onclick="document.body.style.backgroundColor='green'">Make green</button>
         <br>
         <button onclick="makeYellow()">Make yellow</button>
+        <!-- options 3 -->
         <button id="make-purple">Make Purple</button>
         <button id="make-blue">Make Blue</button>
+        <br>
+        <!-- options 4 -->
+        <button id="make-pink">Make Purple</button>
+        <br>
+        <button id="make-red">Make Red</button>
+        <!-- options 4 final -->
+        <button id="make-skyblue">Make Skyblue</button>
     </header>
     <main>
 
@@ -28,7 +38,9 @@
     </footer>
     <script src="./js/events.js"></script>
     <script>
-
+        document.getElementById('make-skyblue').addEventListener('click', function () {
+            document.body.style.backgroundColor = 'skyblue';
+        })
     </script>
 </body>
 
